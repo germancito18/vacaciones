@@ -1,0 +1,65 @@
+header {
+	height: 130px;
+	background: rgb(0, 0, 0); /* For browsers that do not support gradients */
+	background: linear-gradient(-90deg, rgb(34, 112, 10), rgb(255, 255, 255)); /* Standard syntax (must be last) */
+	padding: 1%;
+	font-style: oblique;
+	font-size: 350%;
+	width: 500; /* Establecemos que el header abarque el 100% del documento */
+	overflow: hidden; /* Eliminamos errores de float */
+	margin-bottom: 0px;
+}
+
+.logo{
+	color: rgb(95, 95, 95);
+	font-size: 35%;
+	padding: 2%;
+}
+
+h2{
+	background-color: rgba(14, 104, 51, 0.788);
+	color: rgb(255, 255, 255);
+	font-size:30px;
+	margin-bottom: 0px;
+	font-style: oblique;
+}
+
+h3 {
+
+	overflow: hidden;
+	align-items: left; 
+	background-color: rgba(14, 104, 52, 0.562);
+	color: white;
+	font-family: 'Arial';
+	font-weight: bold;
+	}
+	
+.form-group {
+	font-style: oblique;
+	overflow: hidden; /* Eliminamos errores de float*/ 
+	border-radius: 5%;
+	border: none;
+}
+
+input[type=text] {
+	background-color: rgba(68, 184, 32, 0);
+}
+
+.container{
+
+	background-color: rgba(62, 190, 45, 0.137);
+}
+
+		input[type=text]:focus {
+			background-color: rgba(23, 196, 115, 0.151);
+		}
+
+		input[type=date]:focus {
+			background-color: rgba(23, 196, 115, 0.151);
+		}
+	
+		.pagination {
+			color: rgb(0, 0, 0);
+			float: left;
+			padding: 80px 350px;
+		}

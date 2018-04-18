@@ -1,0 +1,48 @@
+header {
+	height: 130px;
+	background: rgb(0, 0, 0); /* For browsers that do not support gradients */
+	background: linear-gradient(-90deg, rgb(34, 112, 10), rgb(255, 255, 255)); /* Standard syntax (must be last) */
+	padding: 1%;
+	font-style: oblique;
+	font-size: 350%;
+	width: 500; /* Establecemos que el header abarque el 100% del documento */
+	overflow: hidden; /* Eliminamos errores de float */
+	margin-bottom: 0px;
+}
+ 
+.logo{
+	color: rgb(95, 95, 95);
+	font-size: 35%;
+	padding: 2%;
+}
+
+h2{
+	background-color: rgba(14, 104, 51, 0.788);
+	color: rgb(255, 255, 255);
+	font-size:30px;
+	width: 100%; 
+	margin-bottom: 0px;
+	font-style: oblique;
+} 
+
+.nav {
+    background-color: rgba(14, 104, 52, 0.562);
+    font-weight: bold;
+    }
+    
+.navbar:hover {
+    color: rgb(252, 22, 22);
+    text-decoration: none;
+    
+    }
+
+	.btn{
+		background-color: transparent;
+		align-items: center;
+		border: none;
+	}
+	
+	.btn:hover{
+		background-color: rgb(253, 253, 253);
+		color: rgba(14, 104, 51, 0.788);
+		}

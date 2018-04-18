@@ -1,0 +1,68 @@
+header {
+	height: 130px;
+	background: rgb(0, 0, 0); /* For browsers that do not support gradients */
+	background: linear-gradient(-90deg, rgb(34, 112, 10), rgb(255, 255, 255)); /* Standard syntax (must be last) */
+	padding: 1%;
+	font-style: oblique;
+	font-size: 350%;
+	width: 500; /* Establecemos que el header abarque el 100% del documento */
+	overflow: hidden; /* Eliminamos errores de float */
+	margin-bottom: 0px;
+}
+.logo{
+	color: rgb(95, 95, 95);
+	font-size: 35%;
+	padding: 2%;
+}
+
+h2{
+	background-color: rgba(14, 104, 51, 0.788);
+	color: rgb(255, 255, 255);
+	font-size:30px;
+	margin-bottom: 0px;
+	font-style: oblique;
+}
+
+h6{
+	padding: 1%;
+	font-size:25px;
+	margin-bottom: 0px;
+}
+
+.container-fluid{
+	width:100%; 
+
+}
+
+.input-group{
+	position: relative;
+	margin-bottom: 10px;
+	font-size: 16px;
+	width: 100%;
+	outline: none;
+	padding: 5px;
+	border-bottom: #1f4b1456 solid;
+}
+
+.wrap{
+	width: 150%;
+	max-width: 500px;
+	border: groove;
+	padding: 100px;
+	margin: auto;
+	background: rgb(255, 255, 255);
+	box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+.input-box{
+	font-size: 15px;
+	font-family: cursive; 
+	width: 100%;
+	border: none;
+}
+
+.input-group:hover{
+	font-weight: 800;
+	background-color: none;
+	background-position: right;
+	border: none;
+}

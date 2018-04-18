@@ -1,0 +1,107 @@
+header {
+	height: 130px;
+	background: rgb(0, 0, 0); /* For browsers that do not support gradients */
+	background: linear-gradient(-90deg, rgb(34, 112, 10), rgb(255, 255, 255)); /* Standard syntax (must be last) */
+	padding: 1%;
+	font-style: oblique;
+	font-size: 350%;
+	width: 500; /* Establecemos que el header abarque el 100% del documento */
+	overflow: hidden; /* Eliminamos errores de float */
+	margin-bottom: 0px;
+}
+ 
+.logo{
+	color: rgb(95, 95, 95);
+	font-size: 35%;
+	padding: 2%;
+}
+
+h2{
+	background-color: rgba(14, 104, 51, 0.788);
+	color: rgb(255, 255, 255);
+	font-size:30px;
+	width: 100%; 
+	margin-bottom: 0px;
+	font-style: oblique;
+} 
+
+.btn{
+	background-color: rgba(14, 104, 51, 0.788);
+	border: none;
+}
+
+.btn:hover{
+	background-color: rgb(253, 253, 253);
+	color: rgba(14, 104, 51, 0.788);
+	}
+
+
+.btn-group-vertical{
+	padding: 2%;
+
+}
+
+
+
+
+.pagination {
+	color: rgb(0, 0, 0);
+	float: center;
+	padding: 80px 750px;
+}
+
+/* The dropdown container 
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+/*Dropdown button 
+.dropdown .dropbtn {
+color: rgb(86, 49, 155);
+font-weight: bold;
+font-size: 16px;
+border: none;
+outline: none;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit; /* Important for vertical align on mobile phones 
+margin: 0; /* Important for vertical align on mobile phones 
+}
+
+ Add a red background color to navbar links on hover 
+.navbar a:hover{
+color: rgba(36, 96, 165);
+background-color:transparent;
+
+}
+
+.dropdown .dropbtn:hover{
+	color: rgba(132, 112, 155, 0.705);
+	}
+/* Dropdown content (hidden by default) 
+.dropdown-content {
+position: absolute;
+background-color: rgb(209, 28, 28);
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Links inside the dropdown 
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+/* Add a grey background color to dropdown links on hover 
+.dropdown-content a:hover {
+background-color: rgb(69, 54, 121);
+}
+
+/* Show the dropdown menu on hover 
+.dropdown:hover .dropdown-content {
+display: block;
+} */
